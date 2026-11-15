@@ -1,0 +1,15 @@
+task: widowx_put_eggplant_in_basket
+canonical: put eggplant into yellow basket
+paraphrases:
+  - {id: verb_place,      category: verb,      text: place eggplant into yellow basket}
+  - {id: verb_drop,       category: verb,      text: drop eggplant into yellow basket}
+  - {id: verb_move,       category: verb,      text: move eggplant into yellow basket}
+  - {id: object_aubergine, category: object,   text: put aubergine into yellow basket}
+  - {id: spatial_in,      category: spatial,   text: put eggplant in yellow basket}
+  - {id: spatial_inside,  category: spatial,   text: put eggplant inside yellow basket}
+  - {id: qual_articles,   category: qualifier, text: put the eggplant into the yellow basket}
+  - {id: qual_please,     category: qualifier, text: please put eggplant into yellow basket}
+  - {id: reg_could,       category: register,  text: could you put the eggplant into the yellow basket}
+  - {id: reg_goes,        category: register,  text: the eggplant goes into the yellow basket}
+  - {id: struct_pick,     category: structure, text: pick up the eggplant and put it into the yellow basket}
+  - {id: struct_front,    category: structure, text: "into the yellow basket, put the eggplant"}

@@ -1,0 +1,15 @@
+task: widowx_stack_cube
+canonical: stack the green block on the yellow block
+paraphrases:
+  - {id: verb_put,        category: verb,      text: put the green block on the yellow block}
+  - {id: verb_place,      category: verb,      text: place the green block on the yellow block}
+  - {id: verb_set,        category: verb,      text: set the green block on the yellow block}
+  - {id: object_cube,     category: object,    text: stack the green cube on the yellow cube}
+  - {id: spatial_onto,    category: spatial,   text: stack the green block onto the yellow block}
+  - {id: spatial_top,     category: spatial,   text: stack the green block on top of the yellow block}
+  - {id: qual_please,     category: qualifier, text: please stack the green block on the yellow block}
+  - {id: qual_carefully,  category: qualifier, text: carefully stack the green block on the yellow block}
+  - {id: reg_could,       category: register,  text: could you stack the green block on the yellow block}
+  - {id: reg_goes,        category: register,  text: the green block goes on the yellow block}
+  - {id: struct_pick,     category: structure, text: pick up the green block and stack it on the yellow block}
+  - {id: struct_front,    category: structure, text: "on the yellow block, stack the green block"}

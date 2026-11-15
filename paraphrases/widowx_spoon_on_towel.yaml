@@ -1,0 +1,15 @@
+task: widowx_spoon_on_towel
+canonical: put the spoon on the towel
+paraphrases:
+  - {id: verb_place,      category: verb,      text: place the spoon on the towel}
+  - {id: verb_set,        category: verb,      text: set the spoon on the towel}
+  - {id: verb_move,       category: verb,      text: move the spoon to the towel}
+  - {id: object_cloth,    category: object,    text: put the spoon on the cloth}
+  - {id: spatial_onto,    category: spatial,   text: put the spoon onto the towel}
+  - {id: spatial_top,     category: spatial,   text: put the spoon on top of the towel}
+  - {id: qual_please,     category: qualifier, text: please put the spoon on the towel}
+  - {id: qual_carefully,  category: qualifier, text: carefully put the spoon on the towel}
+  - {id: reg_could,       category: register,  text: could you put the spoon on the towel}
+  - {id: reg_goes,        category: register,  text: the spoon goes on the towel}
+  - {id: struct_pick,     category: structure, text: pick up the spoon and put it on the towel}
+  - {id: struct_front,    category: structure, text: "on the towel, put the spoon"}

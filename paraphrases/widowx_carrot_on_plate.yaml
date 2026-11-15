@@ -1,0 +1,15 @@
+task: widowx_carrot_on_plate
+canonical: put carrot on plate
+paraphrases:
+  - {id: verb_place,      category: verb,      text: place carrot on plate}
+  - {id: verb_set,        category: verb,      text: set carrot on plate}
+  - {id: verb_move,       category: verb,      text: move carrot to plate}
+  - {id: object_dish,     category: object,    text: put carrot on dish}
+  - {id: spatial_onto,    category: spatial,   text: put carrot onto plate}
+  - {id: spatial_top,     category: spatial,   text: put carrot on top of plate}
+  - {id: qual_articles,   category: qualifier, text: put the carrot on the plate}
+  - {id: qual_please,     category: qualifier, text: please put carrot on plate}
+  - {id: reg_could,       category: register,  text: could you put the carrot on the plate}
+  - {id: reg_goes,        category: register,  text: the carrot goes on the plate}
+  - {id: struct_pick,     category: structure, text: pick up the carrot and put it on the plate}
+  - {id: struct_front,    category: structure, text: "on the plate, put the carrot"}
