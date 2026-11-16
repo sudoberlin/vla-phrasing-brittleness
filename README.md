@@ -1,6 +1,13 @@
 # Instruction-phrasing brittleness in vision-language-action models
 
+[![tests](https://github.com/sudoberlin/vla-phrasing-brittleness/actions/workflows/tests.yml/badge.svg)](https://github.com/sudoberlin/vla-phrasing-brittleness/actions/workflows/tests.yml)
+![python](https://img.shields.io/badge/python-3.10%2B-blue)
+![license](https://img.shields.io/badge/license-MIT-green)
+![status](https://img.shields.io/badge/status-in%20progress-orange)
+
 Does a robot policy do the same thing when the same request is worded differently?
+
+![Method: the scene is held fixed, only the instruction changes, and the policy is measured per frame and per episode](docs/method.svg)
 
 A vision-language-action (VLA) policy such as OpenVLA is built on a pretrained vision-language model, and those models handle paraphrase well. "Put the spoon on the towel" and "place the spoon on the towel" name the same task in the same scene, so a policy that kept its backbone's language ability should act the same way for both. This repository is the evaluation code for testing whether it does.
 
